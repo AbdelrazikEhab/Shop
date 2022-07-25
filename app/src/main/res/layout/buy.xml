@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/yy"
+    >
+
+    <TextView
+        android:id="@+id/quantati_product_Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="Buy It ...."
+        android:textColor="#FF9900"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/quantati_product_Buy"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="#FF9900"
+        android:id="@+id/Quantati_Edittext_Buy"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Quantati_Edittext_Buy"
+        android:text="Buy"
+        android:textColor="#FF9900"
+        android:backgroundTint="@color/black"
+        android:id="@+id/Buy"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
